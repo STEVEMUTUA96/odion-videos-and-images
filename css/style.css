@@ -128,3 +128,247 @@ body{
     width: 20px;
     height: 15px;
 }
+
+
+
+.main{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    max-width: 92em;
+    margin-left: 120px;
+}
+
+
+.video-content{
+    flex: 3;
+    margin-right: 20px;
+}
+
+.video iframe{    
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 15px;
+}
+
+
+.title h1{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    color: #252323;  
+}
+
+.views{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-top: -20px;
+} 
+
+.views img{
+    cursor: pointer;   
+}
+
+.views p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #606060;
+}
+
+
+#hr1{
+  background-color:#a7a1a1;
+  margin-top: -2px;
+}
+
+
+.youtube-description{
+    display: flex;
+    padding-top: 20px;
+    margin-top: -17px;
+}
+.profile1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    margin: 4px 15px 0 0;   
+}
+
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+}
+
+
+.name-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 6;
+}
+
+
+
+.name{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:550;
+    margin-top: 10px;
+    color:rgb(71, 63, 63);    
+}
+
+
+.subscribes{
+    margin-top:-12px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#606060;
+}
+  
+
+.name-section button{  
+    display: flex;
+    justify-content: flex-end; 
+    background-color:#CE362C;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 10px;
+    }
+
+
+    .name-section a{
+        text-decoration: none;
+    }
+
+
+    .describe-video p{
+        font-size: 14px;
+        font-weight:500;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:#030303;
+        padding-top: 1px
+    }
+
+    
+    #hr2{
+        background-color:#b6b1b1;
+        margin-right: 20px;
+        margin-top: -10px;
+    }
+
+.comment-header{
+    display: flex;
+ }
+
+.comment-header h2{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: rgb(71, 63, 63);
+}
+
+
+
+.comment-header img{
+    margin-left: 30px;
+    cursor: pointer;
+    width: 40px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+
+.comment-section{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.profile1{
+   display: flex;
+    width: 35px;
+    height: 35px;    
+    border-radius: 50%;
+    cursor: pointer;
+    background: grey;
+    margin-top: 18px;
+}
+
+.comment-section input{
+    flex: 1;
+    border: none;
+    background: none;
+    border-bottom: 00.5px solid #303030;
+    font-size: 15px;
+    line-height: 10px;  
+    font-weight: 400;
+    color: black;  
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+/* sidebar */
+
+
+.sidebar{
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+
+}
+
+.next-vid {
+    display: flex;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+.details{
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 3px;
+    color:#332e2e ;
+}
+
+.subscribers{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400px;
+    color:#606060;
+    line-height: 8px;
+}
+
+
+.vid-thumb img {
+    max-width: 170px;
+    max-height: 100px;
+    padding-right: 10px;
+}
+
+@media all and (max-width:900px){
+    .main{
+        flex-direction: column;
+    }
+    .nav-input{
+        display: none;
+    }
+}
